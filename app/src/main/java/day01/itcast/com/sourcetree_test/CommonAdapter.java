@@ -11,6 +11,8 @@ import android.widget.BaseAdapter;
 public class CommonAdapter extends BaseAdapter {
     @Override
     public int getCount() {
+                Log.e(TAG, "远程第一次修改CommonAdapter");
+
         return 0;
     }
 
