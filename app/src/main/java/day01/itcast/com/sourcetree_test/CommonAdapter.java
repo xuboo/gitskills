@@ -1,5 +1,6 @@
 package day01.itcast.com.sourcetree_test;
 
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -9,8 +10,10 @@ import android.widget.BaseAdapter;
  */
 
 public class CommonAdapter extends BaseAdapter {
+    private static final String TAG = "CommonAdapter";
     @Override
     public int getCount() {
+        Log.e(TAG, "本地第一次修改CommonAdapter");
         return 0;
     }
 
