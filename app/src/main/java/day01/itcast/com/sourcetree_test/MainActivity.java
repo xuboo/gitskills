@@ -20,5 +20,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         Log.e(TAG, "远程第二次修改MainActivity");
+         Log.e(TAG, "远程第三次修改MainActivity");
     }
 }
